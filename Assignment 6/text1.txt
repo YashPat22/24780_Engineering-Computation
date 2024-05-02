@@ -1,0 +1,21 @@
+This paper presents a solution to a hex-meshing problem known as 
+Schneiders' problem, which was introduced by Robert Schneiders in 
+1996. Consider a pyramid enclosed by a square and four equilateral
+triangles. The exterior of the pyramid can be subdivided into an 
+all-quadrilateral mesh by (1) inserting a node at the middle of 
+each edge and at the center of each face and (2) connecting a node 
+inserted at the center of the face with the nodes inserted on the 
+edges of the face. The goal of SchneidersÅf problem is to find an 
+all-hex mesh that conforms to this quadrilateral mesh. The solution 
+should consist of as few elements as possible, and as well-shaped 
+elements as possible. Since a solution to this problem could 
+contribute to a fully automatic unstructured all-hex mesh generation 
+scheme, the problem has been studied for years. However, no 
+practically usable solution has been found. The smallest known 
+solution has been a hexahedral mesh consisting of 118 elements. 
+This paper presents a new solution to the problem that consists of 
+88 elements. All elements included in the mesh are positive, and 
+no two neighboring elements share more than one face. Although it 
+is unknown whether 88-element solution is the smallest possible
+solution, it is one step advance from the previously known 
+118-element solution.

@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1B1F26628DDFB2900079F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B1F26528DDFB2900079F1E /* Assets.xcassets */; };
+		B1B1F26928DDFB2900079F1E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1B1F26728DDFB2900079F1E /* MainMenu.xib */; };
+		B1B1F27628DDFB2900079F1E /* Assignment_4___Problem_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1F27528DDFB2900079F1E /* Assignment_4___Problem_1Tests.m */; };
+		B1B1F28028DDFB2900079F1E /* Assignment_4___Problem_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1F27F28DDFB2900079F1E /* Assignment_4___Problem_1UITests.m */; };
+		B1B1F28228DDFB2900079F1E /* Assignment_4___Problem_1UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1F28128DDFB2900079F1E /* Assignment_4___Problem_1UITestsLaunchTests.m */; };
+		B1B1F29028DDFB5700079F1E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B1F28F28DDFB5700079F1E /* OpenGL.framework */; };
+		B1B1F29228DDFB5C00079F1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B1F29128DDFB5C00079F1E /* Cocoa.framework */; };
+		B1B1F29628DDFB7500079F1E /* fssimplewindowobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1F29328DDFB7500079F1E /* fssimplewindowobjc.m */; };
+		B1B1F29728DDFB7500079F1E /* fssimplewindowcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1B1F29528DDFB7500079F1E /* fssimplewindowcpp.cpp */; };
+		B1B1F29928DDFB8F00079F1E /* ps4-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1B1F29828DDFB8F00079F1E /* ps4-1.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1B1F27228DDFB2900079F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B1F25728DDFB2600079F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B1F25E28DDFB2600079F1E;
+			remoteInfo = "Assignment 4 - Problem 1";
+		};
+		B1B1F27C28DDFB2900079F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B1F25728DDFB2600079F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B1F25E28DDFB2600079F1E;
+			remoteInfo = "Assignment 4 - Problem 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1B1F25F28DDFB2600079F1E /* Assignment 4 - Problem 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 4 - Problem 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B1F26528DDFB2900079F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1B1F26828DDFB2900079F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B1B1F26C28DDFB2900079F1E /* Assignment_4___Problem_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Assignment_4___Problem_1.entitlements"; sourceTree = "<group>"; };
+		B1B1F27128DDFB2900079F1E /* Assignment 4 - Problem 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 4 - Problem 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B1F27528DDFB2900079F1E /* Assignment_4___Problem_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Assignment_4___Problem_1Tests.m"; sourceTree = "<group>"; };
+		B1B1F27B28DDFB2900079F1E /* Assignment 4 - Problem 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 4 - Problem 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B1F27F28DDFB2900079F1E /* Assignment_4___Problem_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Assignment_4___Problem_1UITests.m"; sourceTree = "<group>"; };
+		B1B1F28128DDFB2900079F1E /* Assignment_4___Problem_1UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Assignment_4___Problem_1UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		B1B1F28F28DDFB5700079F1E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B1B1F29128DDFB5C00079F1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B1B1F29328DDFB7500079F1E /* fssimplewindowobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fssimplewindowobjc.m; path = "../../../OpenGL Setup/macosx/fssimplewindowobjc.m"; sourceTree = "<group>"; };
+		B1B1F29428DDFB7500079F1E /* fssimplewindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fssimplewindow.h; path = "../../../OpenGL Setup/macosx/fssimplewindow.h"; sourceTree = "<group>"; };
+		B1B1F29528DDFB7500079F1E /* fssimplewindowcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fssimplewindowcpp.cpp; path = "../../../OpenGL Setup/macosx/fssimplewindowcpp.cpp"; sourceTree = "<group>"; };
+		B1B1F29828DDFB8F00079F1E /* ps4-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ps4-1.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B1F25C28DDFB2600079F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B1F29228DDFB5C00079F1E /* Cocoa.framework in Frameworks */,
+				B1B1F29028DDFB5700079F1E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B1F26E28DDFB2900079F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B1F27828DDFB2900079F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1B1F25628DDFB2600079F1E = {
+			isa = PBXGroup;
+			children = (
+				B1B1F26128DDFB2600079F1E /* Assignment 4 - Problem 1 */,
+				B1B1F27428DDFB2900079F1E /* Assignment 4 - Problem 1Tests */,
+				B1B1F27E28DDFB2900079F1E /* Assignment 4 - Problem 1UITests */,
+				B1B1F26028DDFB2600079F1E /* Products */,
+				B1B1F28E28DDFB5700079F1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B1F26028DDFB2600079F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B1F25F28DDFB2600079F1E /* Assignment 4 - Problem 1.app */,
+				B1B1F27128DDFB2900079F1E /* Assignment 4 - Problem 1Tests.xctest */,
+				B1B1F27B28DDFB2900079F1E /* Assignment 4 - Problem 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B1F26128DDFB2600079F1E /* Assignment 4 - Problem 1 */ = {
+			isa = PBXGroup;
+			children = (
+				B1B1F29428DDFB7500079F1E /* fssimplewindow.h */,
+				B1B1F29528DDFB7500079F1E /* fssimplewindowcpp.cpp */,
+				B1B1F29328DDFB7500079F1E /* fssimplewindowobjc.m */,
+				B1B1F26528DDFB2900079F1E /* Assets.xcassets */,
+				B1B1F26728DDFB2900079F1E /* MainMenu.xib */,
+				B1B1F26C28DDFB2900079F1E /* Assignment_4___Problem_1.entitlements */,
+				B1B1F29828DDFB8F00079F1E /* ps4-1.cpp */,
+			);
+			path = "Assignment 4 - Problem 1";
+			sourceTree = "<group>";
+		};
+		B1B1F27428DDFB2900079F1E /* Assignment 4 - Problem 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B1F27528DDFB2900079F1E /* Assignment_4___Problem_1Tests.m */,
+			);
+			path = "Assignment 4 - Problem 1Tests";
+			sourceTree = "<group>";
+		};
+		B1B1F27E28DDFB2900079F1E /* Assignment 4 - Problem 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B1F27F28DDFB2900079F1E /* Assignment_4___Problem_1UITests.m */,
+				B1B1F28128DDFB2900079F1E /* Assignment_4___Problem_1UITestsLaunchTests.m */,
+			);
+			path = "Assignment 4 - Problem 1UITests";
+			sourceTree = "<group>";
+		};
+		B1B1F28E28DDFB5700079F1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B1F29128DDFB5C00079F1E /* Cocoa.framework */,
+				B1B1F28F28DDFB5700079F1E /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B1F25E28DDFB2600079F1E /* Assignment 4 - Problem 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B1F28528DDFB2900079F1E /* Build configuration list for PBXNativeTarget "Assignment 4 - Problem 1" */;
+			buildPhases = (
+				B1B1F25B28DDFB2600079F1E /* Sources */,
+				B1B1F25C28DDFB2600079F1E /* Frameworks */,
+				B1B1F25D28DDFB2600079F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment 4 - Problem 1";
+			productName = "Assignment 4 - Problem 1";
+			productReference = B1B1F25F28DDFB2600079F1E /* Assignment 4 - Problem 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1B1F27028DDFB2900079F1E /* Assignment 4 - Problem 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B1F28828DDFB2900079F1E /* Build configuration list for PBXNativeTarget "Assignment 4 - Problem 1Tests" */;
+			buildPhases = (
+				B1B1F26D28DDFB2900079F1E /* Sources */,
+				B1B1F26E28DDFB2900079F1E /* Frameworks */,
+				B1B1F26F28DDFB2900079F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B1F27328DDFB2900079F1E /* PBXTargetDependency */,
+			);
+			name = "Assignment 4 - Problem 1Tests";
+			productName = "Assignment 4 - Problem 1Tests";
+			productReference = B1B1F27128DDFB2900079F1E /* Assignment 4 - Problem 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1B1F27A28DDFB2900079F1E /* Assignment 4 - Problem 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B1F28B28DDFB2900079F1E /* Build configuration list for PBXNativeTarget "Assignment 4 - Problem 1UITests" */;
+			buildPhases = (
+				B1B1F27728DDFB2900079F1E /* Sources */,
+				B1B1F27828DDFB2900079F1E /* Frameworks */,
+				B1B1F27928DDFB2900079F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B1F27D28DDFB2900079F1E /* PBXTargetDependency */,
+			);
+			name = "Assignment 4 - Problem 1UITests";
+			productName = "Assignment 4 - Problem 1UITests";
+			productReference = B1B1F27B28DDFB2900079F1E /* Assignment 4 - Problem 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B1F25728DDFB2600079F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B1B1F25E28DDFB2600079F1E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B1B1F27028DDFB2900079F1E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B1B1F25E28DDFB2600079F1E;
+					};
+					B1B1F27A28DDFB2900079F1E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B1B1F25E28DDFB2600079F1E;
+					};
+				};
+			};
+			buildConfigurationList = B1B1F25A28DDFB2600079F1E /* Build configuration list for PBXProject "Assignment 4 - Problem 1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1B1F25628DDFB2600079F1E;
+			productRefGroup = B1B1F26028DDFB2600079F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B1F25E28DDFB2600079F1E /* Assignment 4 - Problem 1 */,
+				B1B1F27028DDFB2900079F1E /* Assignment 4 - Problem 1Tests */,
+				B1B1F27A28DDFB2900079F1E /* Assignment 4 - Problem 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1B1F25D28DDFB2600079F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B1F26628DDFB2900079F1E /* Assets.xcassets in Resources */,
+				B1B1F26928DDFB2900079F1E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B1F26F28DDFB2900079F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B1F27928DDFB2900079F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B1F25B28DDFB2600079F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B1F29728DDFB7500079F1E /* fssimplewindowcpp.cpp in Sources */,
+				B1B1F29628DDFB7500079F1E /* fssimplewindowobjc.m in Sources */,
+				B1B1F29928DDFB8F00079F1E /* ps4-1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B1F26D28DDFB2900079F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B1F27628DDFB2900079F1E /* Assignment_4___Problem_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B1F27728DDFB2900079F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B1F28228DDFB2900079F1E /* Assignment_4___Problem_1UITestsLaunchTests.m in Sources */,
+				B1B1F28028DDFB2900079F1E /* Assignment_4___Problem_1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1B1F27328DDFB2900079F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B1F25E28DDFB2600079F1E /* Assignment 4 - Problem 1 */;
+			targetProxy = B1B1F27228DDFB2900079F1E /* PBXContainerItemProxy */;
+		};
+		B1B1F27D28DDFB2900079F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B1F25E28DDFB2600079F1E /* Assignment 4 - Problem 1 */;
+			targetProxy = B1B1F27C28DDFB2900079F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1B1F26728DDFB2900079F1E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B1F26828DDFB2900079F1E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1B1F28328DDFB2900079F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1B1F28428DDFB2900079F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B1B1F28628DDFB2900079F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assignment 4 - Problem 1/Assignment_4___Problem_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3ZG3S68X5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.Assignment-4---Problem-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		B1B1F28728DDFB2900079F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assignment 4 - Problem 1/Assignment_4___Problem_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3ZG3S68X5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.Assignment-4---Problem-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		B1B1F28928DDFB2900079F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3ZG3S68X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.Assignment-4---Problem-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment 4 - Problem 1.app/Contents/MacOS/Assignment 4 - Problem 1";
+			};
+			name = Debug;
+		};
+		B1B1F28A28DDFB2900079F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3ZG3S68X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.Assignment-4---Problem-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment 4 - Problem 1.app/Contents/MacOS/Assignment 4 - Problem 1";
+			};
+			name = Release;
+		};
+		B1B1F28C28DDFB2900079F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3ZG3S68X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.Assignment-4---Problem-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Assignment 4 - Problem 1";
+			};
+			name = Debug;
+		};
+		B1B1F28D28DDFB2900079F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3ZG3S68X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.Assignment-4---Problem-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Assignment 4 - Problem 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B1F25A28DDFB2600079F1E /* Build configuration list for PBXProject "Assignment 4 - Problem 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B1F28328DDFB2900079F1E /* Debug */,
+				B1B1F28428DDFB2900079F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B1F28528DDFB2900079F1E /* Build configuration list for PBXNativeTarget "Assignment 4 - Problem 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B1F28628DDFB2900079F1E /* Debug */,
+				B1B1F28728DDFB2900079F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B1F28828DDFB2900079F1E /* Build configuration list for PBXNativeTarget "Assignment 4 - Problem 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B1F28928DDFB2900079F1E /* Debug */,
+				B1B1F28A28DDFB2900079F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B1F28B28DDFB2900079F1E /* Build configuration list for PBXNativeTarget "Assignment 4 - Problem 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B1F28C28DDFB2900079F1E /* Debug */,
+				B1B1F28D28DDFB2900079F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1B1F25728DDFB2600079F1E /* Project object */;
+}
